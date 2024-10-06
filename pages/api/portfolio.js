@@ -17,7 +17,7 @@ const portfolio = [
         tech: 'GraphQL',
       },
       {
-        tech: 'Ant Design',
+        tech: 'Tableau',
       },
       {
         tech: 'TailwindCSS',
