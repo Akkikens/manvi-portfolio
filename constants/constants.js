@@ -1,11 +1,11 @@
-export const NAME = 'Muhammad Osama Javaid';
+export const NAME = 'Manvi Panjwani';
 
-export const DESIGNATION = `MERN Stack Developer | Open Source Contributor | Tech Blogger`;
+export const DESIGNATION = `Software Developer | Machine Learning Engineer  `;
 
 export const DETAILS = {
-  Residence: 'Pakistan',
-  City: 'Peshawar',
-  Age: '23',
+  Residence: 'United States',
+  City: 'Boston, MA',
+  Age: '25',
 };
 
 export const SKILLS = [
@@ -56,12 +56,12 @@ export const TECH_STACK = [
 ];
 
 export const CONTACTS = {
-  EMAIL: 'iosamajavaid@gmail.com',
-  PHONE: '+923159591822',
+  EMAIL: 'mpanjwani@clarku.edu',
+  PHONE: '+1 (331) 203 2895',
 };
 export const SOCIAL_LINKS = {
   GITHUB: 'https://github.com/osamajavaid',
-  LINKEDIN: 'https://www.linkedin.com/in/iosamajavaid/',
+  LINKEDIN: 'https://www.linkedin.com/in/manvi-panjwani/',
   TWITTER: 'https://twitter.com/iosamajavaid',
   FACEBOOK: 'https://www.facebook.com/iosamajavaid',
 };

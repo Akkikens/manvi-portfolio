@@ -1,0 +1,36 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(() => {
+var exports = {};
+exports.id = "pages/api/expertise";
+exports.ids = ["pages/api/expertise"];
+exports.modules = {
+
+/***/ "(api)/./pages/api/expertise.js":
+/*!********************************!*\
+  !*** ./pages/api/expertise.js ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ handler)\n/* harmony export */ });\nconst expertise = [\n    {\n        id: 0,\n        title: \"Full Stack Development\",\n        desc: \"I am a skilled MERN stack developer with extensive experience in building robust web applications using MongoDB, Express.js, React.js, and Node.js. I possess a strong understanding of server-side rendering, API integration, and database management. With my expertise, I can deliver dynamic and efficient web solutions tailored to meet the unique requirements of clients.\"\n    },\n    {\n        id: 1,\n        title: \"Scrum and Jira\",\n        desc: \"As a developer, I'm proficient in Jira and Scrum methodologies. I use Jira to simplify project management tasks like task assignment, prioritization, and progress tracking. Scrum has improved my teamwork, utilizing daily stand-ups, sprint planning, and retrospectives. My expertise ensures high-quality software products are delivered promptly.\"\n    },\n    {\n        id: 2,\n        title: \"Designing (UI/UX)\",\n        desc: \"I am proficient in using design software such as Figma, Adobe XD, and Adobe Illustrator. Through participating in hackathons and freelance work, I have gained practical experience in UI/UX design and graphic design. Designing is my passion, and it has allowed me to continue to develop my creative skills and grow in the field.\"\n    },\n    {\n        id: 3,\n        title: \"Github\",\n        desc: \"GitHub is essential for version control and collaboration. Its intuitive interface and features like pull requests and issue tracking simplify the process. Continuous integration ensures up-to-date code. GitHub is vital to my success as a developer.\"\n    },\n    {\n        id: 4,\n        title: \"Open Source Contributor\",\n        desc: \"Open Source is the future. I usually take some time on weekend and contribute into opensource project. It gives me opportunity to learn from best developer's practices and also gives me a chance to help others and contribute into the community for the good.\"\n    }\n];\nfunction handler(req, res) {\n    res.status(200).json(expertise);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwaSkvLi9wYWdlcy9hcGkvZXhwZXJ0aXNlLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7QUFBQSxNQUFNQSxZQUFZO0lBQ2hCO1FBQ0VDLElBQUk7UUFDSkMsT0FBTztRQUNQQyxNQUFNO0lBQ1I7SUFDQTtRQUNFRixJQUFJO1FBQ0pDLE9BQU87UUFDUEMsTUFBTTtJQUNSO0lBQ0E7UUFDRUYsSUFBSTtRQUNKQyxPQUFPO1FBQ1BDLE1BQU07SUFDUjtJQUNBO1FBQ0VGLElBQUk7UUFDSkMsT0FBTztRQUNQQyxNQUFNO0lBQ1I7SUFDQTtRQUNFRixJQUFJO1FBQ0pDLE9BQU87UUFDUEMsTUFBTTtJQUNSO0NBQ0Q7QUFFYyxTQUFTQyxRQUFRQyxHQUFHLEVBQUVDLEdBQUcsRUFBRTtJQUN4Q0EsSUFBSUMsTUFBTSxDQUFDLEtBQUtDLElBQUksQ0FBQ1I7QUFDdkIsQ0FBQyIsInNvdXJjZXMiOlsid2VicGFjazovL3BvcnRmb2xpby8uL3BhZ2VzL2FwaS9leHBlcnRpc2UuanM/YTA3NyJdLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCBleHBlcnRpc2UgPSBbXG4gIHtcbiAgICBpZDogMCxcbiAgICB0aXRsZTogJ0Z1bGwgU3RhY2sgRGV2ZWxvcG1lbnQnLFxuICAgIGRlc2M6ICdJIGFtIGEgc2tpbGxlZCBNRVJOIHN0YWNrIGRldmVsb3BlciB3aXRoIGV4dGVuc2l2ZSBleHBlcmllbmNlIGluIGJ1aWxkaW5nIHJvYnVzdCB3ZWIgYXBwbGljYXRpb25zIHVzaW5nIE1vbmdvREIsIEV4cHJlc3MuanMsIFJlYWN0LmpzLCBhbmQgTm9kZS5qcy4gSSBwb3NzZXNzIGEgc3Ryb25nIHVuZGVyc3RhbmRpbmcgb2Ygc2VydmVyLXNpZGUgcmVuZGVyaW5nLCBBUEkgaW50ZWdyYXRpb24sIGFuZCBkYXRhYmFzZSBtYW5hZ2VtZW50LiBXaXRoIG15IGV4cGVydGlzZSwgSSBjYW4gZGVsaXZlciBkeW5hbWljIGFuZCBlZmZpY2llbnQgd2ViIHNvbHV0aW9ucyB0YWlsb3JlZCB0byBtZWV0IHRoZSB1bmlxdWUgcmVxdWlyZW1lbnRzIG9mIGNsaWVudHMuJyxcbiAgfSxcbiAge1xuICAgIGlkOiAxLFxuICAgIHRpdGxlOiAnU2NydW0gYW5kIEppcmEnLFxuICAgIGRlc2M6IFwiQXMgYSBkZXZlbG9wZXIsIEknbSBwcm9maWNpZW50IGluIEppcmEgYW5kIFNjcnVtIG1ldGhvZG9sb2dpZXMuIEkgdXNlIEppcmEgdG8gc2ltcGxpZnkgcHJvamVjdCBtYW5hZ2VtZW50IHRhc2tzIGxpa2UgdGFzayBhc3NpZ25tZW50LCBwcmlvcml0aXphdGlvbiwgYW5kIHByb2dyZXNzIHRyYWNraW5nLiBTY3J1bSBoYXMgaW1wcm92ZWQgbXkgdGVhbXdvcmssIHV0aWxpemluZyBkYWlseSBzdGFuZC11cHMsIHNwcmludCBwbGFubmluZywgYW5kIHJldHJvc3BlY3RpdmVzLiBNeSBleHBlcnRpc2UgZW5zdXJlcyBoaWdoLXF1YWxpdHkgc29mdHdhcmUgcHJvZHVjdHMgYXJlIGRlbGl2ZXJlZCBwcm9tcHRseS5cIixcbiAgfSxcbiAge1xuICAgIGlkOiAyLFxuICAgIHRpdGxlOiAnRGVzaWduaW5nIChVSS9VWCknLFxuICAgIGRlc2M6ICdJIGFtIHByb2ZpY2llbnQgaW4gdXNpbmcgZGVzaWduIHNvZnR3YXJlIHN1Y2ggYXMgRmlnbWEsIEFkb2JlIFhELCBhbmQgQWRvYmUgSWxsdXN0cmF0b3IuIFRocm91Z2ggcGFydGljaXBhdGluZyBpbiBoYWNrYXRob25zIGFuZCBmcmVlbGFuY2Ugd29yaywgSSBoYXZlIGdhaW5lZCBwcmFjdGljYWwgZXhwZXJpZW5jZSBpbiBVSS9VWCBkZXNpZ24gYW5kIGdyYXBoaWMgZGVzaWduLiBEZXNpZ25pbmcgaXMgbXkgcGFzc2lvbiwgYW5kIGl0IGhhcyBhbGxvd2VkIG1lIHRvIGNvbnRpbnVlIHRvIGRldmVsb3AgbXkgY3JlYXRpdmUgc2tpbGxzIGFuZCBncm93IGluIHRoZSBmaWVsZC4nLFxuICB9LFxuICB7XG4gICAgaWQ6IDMsXG4gICAgdGl0bGU6ICdHaXRodWInLFxuICAgIGRlc2M6ICdHaXRIdWIgaXMgZXNzZW50aWFsIGZvciB2ZXJzaW9uIGNvbnRyb2wgYW5kIGNvbGxhYm9yYXRpb24uIEl0cyBpbnR1aXRpdmUgaW50ZXJmYWNlIGFuZCBmZWF0dXJlcyBsaWtlIHB1bGwgcmVxdWVzdHMgYW5kIGlzc3VlIHRyYWNraW5nIHNpbXBsaWZ5IHRoZSBwcm9jZXNzLiBDb250aW51b3VzIGludGVncmF0aW9uIGVuc3VyZXMgdXAtdG8tZGF0ZSBjb2RlLiBHaXRIdWIgaXMgdml0YWwgdG8gbXkgc3VjY2VzcyBhcyBhIGRldmVsb3Blci4nLFxuICB9LFxuICB7XG4gICAgaWQ6IDQsXG4gICAgdGl0bGU6ICdPcGVuIFNvdXJjZSBDb250cmlidXRvcicsXG4gICAgZGVzYzogXCJPcGVuIFNvdXJjZSBpcyB0aGUgZnV0dXJlLiBJIHVzdWFsbHkgdGFrZSBzb21lIHRpbWUgb24gd2Vla2VuZCBhbmQgY29udHJpYnV0ZSBpbnRvIG9wZW5zb3VyY2UgcHJvamVjdC4gSXQgZ2l2ZXMgbWUgb3Bwb3J0dW5pdHkgdG8gbGVhcm4gZnJvbSBiZXN0IGRldmVsb3BlcidzIHByYWN0aWNlcyBhbmQgYWxzbyBnaXZlcyBtZSBhIGNoYW5jZSB0byBoZWxwIG90aGVycyBhbmQgY29udHJpYnV0ZSBpbnRvIHRoZSBjb21tdW5pdHkgZm9yIHRoZSBnb29kLlwiLFxuICB9LFxuXTtcblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gaGFuZGxlcihyZXEsIHJlcykge1xuICByZXMuc3RhdHVzKDIwMCkuanNvbihleHBlcnRpc2UpO1xufVxuIl0sIm5hbWVzIjpbImV4cGVydGlzZSIsImlkIiwidGl0bGUiLCJkZXNjIiwiaGFuZGxlciIsInJlcSIsInJlcyIsInN0YXR1cyIsImpzb24iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(api)/./pages/api/expertise.js\n");
+
+/***/ })
+
+};
+;
+
+// load runtime
+var __webpack_require__ = require("../../webpack-api-runtime.js");
+__webpack_require__.C(exports);
+var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+var __webpack_exports__ = (__webpack_exec__("(api)/./pages/api/expertise.js"));
+module.exports = __webpack_exports__;
+
+})();
