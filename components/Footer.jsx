@@ -18,14 +18,14 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            Made with ❤️ by <span className="font-bold">Osama</span>
+            Made with ❤️ by <span className="font-bold">Manvi</span>
           </a>
         </div>
         <div className="hidden md:flex items-center">
           <div className="mr-1 text-base">
             <MdMail />
           </div>
-          <div>iosamajavaid@gmail.com</div>
+          <div>mpanjwani@clarku.edu</div>
         </div>
       </div>
     </div>
