@@ -1,37 +1,38 @@
 const review = [
   {
     id: 0,
-    clientName: 'Mustafash',
-    clientLocation: 'Egypt',
-    clientSource: 'Fiverr',
+    clientName: 'Nokia Network Services Team',
+    clientLocation: 'Bengaluru, India',
+    clientSource: 'Professional Work',
     clientReview:
-      'It is always nice to work with him. The work is finished quickly and he does more than is asked of him. It is also clear that he has a lot of knowledge of the work he does. I look forward to our next collaboration.',
+      'Manvi has been an incredible asset during her time as an Associate Software Engineer at Nokia. Her ability to quickly learn and contribute to complex projects like the Nokia Network Services Platform was impressive. She demonstrated professionalism, attention to detail, and a deep understanding of network security measures. We look forward to working with her on future projects.',
+  },
+  {
+    id: 1,
+    clientName: 'Technocolabs Software Team',
+    clientLocation: 'Indore, India',
+    clientSource: 'Internship',
+    clientReview:
+      'Manvi led our data science project with exceptional skill. She showcased her ability to lead a cross-functional team and ensured that all key project milestones were met on time. Her proficiency in machine learning techniques and project management was highly appreciated by both the team and stakeholders.',
   },
   {
     id: 2,
-    clientName: 'Melissabrown255',
-    clientLocation: 'United States',
-    clientSource: 'Fiverr',
+    clientName: 'Clark University Professor',
+    clientLocation: 'Worcester, MA, United States',
+    clientSource: 'Academic',
     clientReview:
-      'He is very good with communication and experienced website developer, great experience to work with him. ',
+      'Manvi has consistently excelled in her coursework at Clark University. Her critical thinking and problem-solving abilities set her apart in group projects, and she has demonstrated strong leadership and teamwork skills. Her dedication to mastering new concepts in computer science is commendable, and I highly recommend her for any software development or research roles.',
   },
   {
     id: 3,
-    clientName: 'Jake Corry',
-    clientLocation: 'Germany',
-    clientSource: 'Fiverr',
+    clientName: 'Hackathon Participant Team',
+    clientLocation: 'Virtual',
+    clientSource: 'Hackathon Collaboration',
     clientReview:
-      'Osama is extremely knowledgeable and helpful. He knows in and out of web app development . His understanding of different technologies and frameworks in the space is also very impressive. I hope I get the chance to work with him again',
-  },
-  {
-    id: 4,
-    clientName: 'Blaise Labriola',
-    clientLocation: 'France',
-    clientSource: 'Fiverr',
-    clientReview:
-      'I have worked with Osama and he is very professional and excellent software  developer. I admire his speed of development and quality of work when given an assignment.',
+      'It was a pleasure to work with Manvi during the hackathon. She brought her UI/UX design skills and development expertise to the team, helping us build a well-rounded project. Her attention to detail and creativity helped the team stand out. I look forward to future collaborations with her.',
   },
 ];
+
 export default function handler(req, res) {
   res.status(200).json(review);
 }

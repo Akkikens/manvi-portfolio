@@ -2,8 +2,10 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/background": "pages/background.js",
+  "/contact": "pages/contact.js",
+  "/portfolio": "pages/portfolio.js",
   "/": "pages/index.js",
-  "/api/review": "pages/api/review.js",
-  "/api/expertise": "pages/api/expertise.js",
-  "/contact": "pages/contact.js"
+  "/api/background": "pages/api/background.js",
+  "/api/portfolio": "pages/api/portfolio.js"
 }

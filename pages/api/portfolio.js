@@ -1,245 +1,135 @@
 const portfolio = [
   {
     id: 0,
-    projectName: 'JMM ERP',
-    url: 'https://jmmerp.com/',
-    image: 'projects/erp.png',
+    projectName: 'Hyperspectral Image Classification',
+    url: '', // No external URL provided in resume
+    image: 'projects/hyperspectral.png',
     projectDetail:
-      'Restructure your business with JMM ERP’s all-in-one cloud-based ERP. JMM ERP provides a robust, cost-effective online solution with state-of-the-art software to increase business value and enhance customer impact.',
+      'Developed a Deep Neural Network for land-cover classification using hyperspectral images. This project involved pre-processing large-scale image data and applying deep learning techniques to classify different types of land cover.',
     technologiesUsed: [
       {
-        tech: 'ReactJS',
+        tech: 'Python',
       },
       {
-        tech: '.net',
+        tech: 'Deep Learning',
       },
       {
-        tech: 'GraphQL',
+        tech: 'Neural Networks',
       },
       {
-        tech: 'Tableau',
-      },
-      {
-        tech: 'TailwindCSS',
-      },
-    ],
-  },
-  {
-    id: 0,
-    projectName: 'ABSCO',
-    url: 'https://absco.sa/',
-    image: 'projects/absco.png',
-    projectDetail:
-      'ABSCO offer unparalleled business consulting solutions to meet client’s unique needs.',
-    technologiesUsed: [
-      {
-        tech: 'ReactJS',
-      },
-      {
-        tech: 'Ant Design',
-      },
-      {
-        tech: 'TailwindCSS',
-      },
-    ],
-  },
-  {
-    id: 0,
-    projectName: 'JMM Technologies',
-    url: 'https://jmm.ltd/',
-    image: 'projects/jmm.png',
-    projectDetail:
-      'JMM Technologies is a start-up turned technology company with extensive years of experience delivering digital solutions. As a fast-growing tech firm, we help diverse businesses and organizations. Our expertise in innovative, state-of-the-art digital services accelerates business growth and enhances customer impact.',
-    technologiesUsed: [
-      {
-        tech: 'ReactJS',
-      },
-      {
-        tech: '.net',
-      },
-      {
-        tech: "REST API's",
-      },
-      {
-        tech: 'Ant Design',
-      },
-      {
-        tech: 'TailwindCSS',
-      },
-    ],
-  },
-  {
-    id: 0,
-    projectName: 'ALSN',
-    url: 'https://alsn.app/',
-    image: 'projects/alsn.png',
-    projectDetail:
-      'ASLN drives digital transformation with certified document translation services. In an interconnected world where seamless communication is imperative, they are strategically positioned to cater to the needs of businesses, individuals, and organizations.',
-    technologiesUsed: [
-      {
-        tech: 'ReactJS',
-      },
-      {
-        tech: '.net',
-      },
-      {
-        tech: "REST API's",
-      },
-      {
-        tech: 'Ant Design',
-      },
-      {
-        tech: 'TailwindCSS',
-      },
-    ],
-  },
-  {
-    id: 0,
-    projectName: 'FirmSanad',
-    url: '/domain-expired',
-    image: 'projects/firmsanad.png',
-    projectDetail:
-      'Invest in Saudi Arabia, Streamline Your Business Setup Process in Saudi Arabia with FirmSanad Simplify the process of obtaining licenses and starting a business in Saudi Arabia with our streamlined platform.',
-    technologiesUsed: [
-      {
-        tech: 'ReactJS',
-      },
-      {
-        tech: '.net',
-      },
-      {
-        tech: "REST API's",
-      },
-      {
-        tech: 'Ant Design',
-      },
-      {
-        tech: 'TailwindCSS',
-      },
-    ],
-  },
-  {
-    id: 0,
-    projectName: 'Fateh Al Mustaqbil',
-    url: 'https://fatehtour.com/',
-    image: 'projects/fateh.png',
-    projectDetail:
-      "Fateh Al Mustaqbil is a one-of-a-kind travel agency designed to cater to the interests of travelers across the globe, founded in 2023 in Riyadh, Saudi Arabia. Their expertise lies in crafting exceptional journeys tailored to each client's unique requirements, whether it be ticketing, hotel bookings, or visa assistance.",
-    technologiesUsed: [
-      {
-        tech: 'ReactJS',
-      },
-      {
-        tech: '.net',
-      },
-      {
-        tech: "REST API's",
-      },
-      {
-        tech: 'Ant Design',
-      },
-      {
-        tech: 'TailwindCSS',
-      },
-    ],
-  },
-  {
-    id: 0,
-    projectName: 'Tojjar',
-    url: '/domain-expired',
-    image: 'projects/tojjar.png',
-    projectDetail:
-      'Tojjar is ecommerce website,  where you can open your own store and sell products of different brands!',
-    technologiesUsed: [
-      {
-        tech: 'Nextjs with SSR',
-      },
-      {
-        tech: 'Laravel',
-      },
-      {
-        tech: "REST API's",
-      },
-      {
-        tech: 'Ant Design',
-      },
-      {
-        tech: 'TailwindCSS',
+        tech: 'TensorFlow',
       },
     ],
   },
   {
     id: 1,
-    projectName: 'Otawix',
-    url: 'https://b2c.otawix.com/',
-    image: 'projects/otawix.png',
+    projectName: 'Predict Blood Donation',
+    url: '', // No external URL provided in resume
+    image: 'projects/blood_donation.png',
     projectDetail:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam corrupti aut veritatis, adipisci natus optio dolores cum rem? Aut perferendis fugit, eos rerum totam aspernatur iure alias temporibus ipsa perspiciatis!',
+      'Created a machine learning model to predict blood donation patterns using techniques such as Logistic Regression, Support Vector Machines (SVM), and Random Forest. The model was trained and evaluated using real-world data.',
     technologiesUsed: [
       {
-        tech: 'NextJS',
+        tech: 'Python',
       },
       {
-        tech: 'NodeJS',
+        tech: 'Logistic Regression',
       },
       {
-        tech: "REST API's",
+        tech: 'SVM',
       },
       {
-        tech: 'MUI',
+        tech: 'Random Forest',
       },
       {
-        tech: 'TailwindCSS',
+        tech: 'Pandas & NumPy',
       },
     ],
   },
   {
     id: 2,
-    projectName: 'Spatay',
-    url: 'https://spatay.com/',
-    image: 'projects/spatay.png',
+    projectName: 'Handwritten Digit Recognizer',
+    url: '', // No external URL provided in resume
+    image: 'projects/handwritten_digits.png',
     projectDetail:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam corrupti aut veritatis, adipisci natus optio dolores cum rem? Aut perferendis fugit, eos rerum totam aspernatur iure alias temporibus ipsa perspiciatis!',
+      'Built a machine learning model to classify handwritten digits using popular machine learning algorithms. This project involved feature extraction and the implementation of classification models to achieve high accuracy.',
     technologiesUsed: [
       {
-        tech: 'ReactJS',
+        tech: 'Python',
       },
       {
-        tech: 'NodeJS',
+        tech: 'Scikit-learn',
       },
       {
-        tech: "REST API's",
+        tech: 'Machine Learning',
       },
       {
-        tech: 'Ant Design',
-      },
-      {
-        tech: 'TailwindCSS',
+        tech: 'Neural Networks',
       },
     ],
   },
-  // {
-  //     id: 2,
-  //     projectName: "Culyte",
-  //     url: "https://culyte.com",
-  //     image: "projects/culyte.png",
-  //     projectDetail: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam corrupti aut veritatis, adipisci natus optio dolores cum rem? Aut perferendis fugit, eos rerum totam aspernatur iure alias temporibus ipsa perspiciatis!",
-  //     technologiesUsed: [
-  //         {
-  //             tech: "ReactJS"
-  //         },
-  //         {
-  //             tech: "NodeJS"
-  //         },
-  //         {
-  //             tech: "Ant Design"
-  //         },
-  //         {
-  //             tech: "TailwindCSS"
-  //         },
-  //     ]
-  // },
+  {
+    id: 3,
+    projectName: 'Cryptocurrency Trading Based on Twitter Sentiment Analysis',
+    url: '', // No external URL provided in resume
+    image: 'projects/crypto_sentiment.png',
+    projectDetail:
+      'Analyzed sentiment from Twitter data and developed a model that used sentiment analysis to inform cryptocurrency trading strategies. The project focused on using natural language processing (NLP) to derive insights from social media data.',
+    technologiesUsed: [
+      {
+        tech: 'Python',
+      },
+      {
+        tech: 'NLP',
+      },
+      {
+        tech: 'Twitter API',
+      },
+      {
+        tech: 'Pandas & NumPy',
+      },
+    ],
+  },
+  {
+    id: 4,
+    projectName: 'Nokia Network Services Platform (NSP)',
+    url: '', // No external URL provided in resume
+    image: 'projects/nokia_nsp.png',
+    projectDetail:
+      'Worked as an Associate Software Engineer to contribute to the Nokia Network Services Platform (NSP), a network management solution for diverse network domains. Performed tasks such as managing cellular domains, node discovery, and implementing network security measures.',
+    technologiesUsed: [
+      {
+        tech: 'Java',
+      },
+      {
+        tech: 'NSP NFM-P',
+      },
+      {
+        tech: 'Network Security',
+      },
+    ],
+  },
+  {
+    id: 5,
+    projectName: 'Data Science Internship - Technocolabs Software',
+    url: '', // No external URL provided in resume
+    image: 'projects/technocolabs.png',
+    projectDetail:
+      'Led a cross-functional team in a data science project focused on machine learning techniques. Managed project timelines, coordinated tasks among team members, and presented progress reports to stakeholders.',
+    technologiesUsed: [
+      {
+        tech: 'Python',
+      },
+      {
+        tech: 'Machine Learning',
+      },
+      {
+        tech: 'Project Management',
+      },
+    ],
+  },
 ];
+
 export default function handler(req, res) {
   res.status(200).json(portfolio);
 }

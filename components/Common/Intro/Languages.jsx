@@ -2,21 +2,26 @@ import { Progress } from 'antd';
 import { useEffect, useState } from 'react';
 
 const Languages = () => {
-  const [urdu, setUrdu] = useState(0);
+  const [hindi, setHindi] = useState(0);
   const [english, setEnglish] = useState(0);
+  const [sindhi, setSindhi] = useState(0);
 
   useEffect(() => {
     const timer = setInterval(() => {
-      if (urdu < 98) {
-        setUrdu((prevCount) => prevCount + 1);
+      if (hindi < 98) {
+        setHindi((prevCount) => prevCount + 1);
       }
-      if (english < 88) {
+      if (english < 100) {
         setEnglish((prevCount) => prevCount + 1);
+      }
+      if (sindhi < 80) {
+        setSindhi((prevCount) => prevCount + 1);
       }
     }, 30);
 
     return () => clearInterval(timer);
-  }, [urdu, english]);
+  }, [hindi, english, sindhi]);
+
   return (
     <div className="flex flex-col space-y-1 pt-6">
       <div className="flex flex-col gap-y-4">
@@ -26,10 +31,10 @@ const Languages = () => {
             <Progress
               strokeColor="#1fdf64"
               type="circle"
-              percent={urdu}
+              percent={hindi}
               size={75}
             />
-            <span className="text-xs font-bold text-Snow">Urdu</span>
+            <span className="text-xs font-bold text-Snow">Hindi</span>
           </div>
           <div className="flex flex-col items-center justify-center gap-y-2">
             <Progress
@@ -39,6 +44,15 @@ const Languages = () => {
               size={75}
             />
             <span className="text-xs font-bold text-Snow">English</span>
+          </div>
+          <div className="flex flex-col items-center justify-center gap-y-2">
+            <Progress
+              strokeColor="#1fdf64"
+              type="circle"
+              percent={sindhi}
+              size={75}
+            />
+            <span className="text-xs font-bold text-Snow">Sindhi</span>
           </div>
         </div>
       </div>

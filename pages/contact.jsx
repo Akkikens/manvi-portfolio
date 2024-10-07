@@ -77,7 +77,7 @@ const Contact = () => {
           </a>
           <a
             className="hover:scale-125 ease-in-out duration-700"
-            href="https://github.com/osamajavaid"
+            href="https://github.com/manvipanjwani"
             target="_blank"
             rel="noreferrer"
           >
@@ -91,14 +91,14 @@ const Contact = () => {
           >
             <FaLinkedin />
           </a>
-          {/* <a className='hover:scale-125 ease-in-out duration-700' href="https://x.com/iosamajavaid" target='_blank' rel="noreferrer"><FaTwitter /></a> */}
+          {/* Removed Twitter link */}
           <a
             className="hover:scale-125 ease-in-out duration-700 hidden sm:block"
-            href="https://www.fiverr.com/codeworthy"
+            href="https://www.linkedin.com/in/manvi-panjwani-b914421b2/"
             target="_blank"
             rel="noreferrer"
           >
-            <Fiverr_Icon />
+            <FaLinkedin />
           </a>
           <a
             className="hover:scale-125 ease-in-out duration-700 text-2xl sm:text-4xl mt-1"
@@ -176,7 +176,6 @@ const Contact = () => {
       {/* success modal */}
       <Modal
         className="card_stylings backdrop-blur-3xl drop-shadow-2xl"
-        // wrapClassName='bg-red-800'
         centered
         open={isOpen}
         footer={null}
@@ -185,13 +184,13 @@ const Contact = () => {
         onCancel={() => setIsOpen(false)}
       >
         <div className="flex flex-col items-center justify-center">
-          <h1 className="text-Green font-bold text-2xl">In Progress</h1>
+          <h1 className="text-Green font-bold text-2xl">Message Sent</h1>
           <a
             className="underline text-Snow"
             target="_blank"
-            href="https://github.com/osamajavaid/portfolio"
+            href="https://www.linkedin.com/in/manvi-panjwani-b914421b2/"
           >
-            Be the one to integrate this!
+            Connect with me on LinkedIn!
           </a>
         </div>
       </Modal>

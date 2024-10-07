@@ -1,39 +1,39 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 const recommendationCard = [
   {
     id: 0,
-    name: 'Shahmir Minhas',
-    image: 'images/shahmir.jfif',
-    designation: 'React JS | NEXT JS | Node | GraphQL',
-    view: 'Hey everyone! I wanted to take a moment to recommend Osama Javaid for any React.js opportunities. I had the pleasure of working with him on multiple projects where he showcased a strong understanding of React.js and Next.js concepts and delivered high-quality code. He consistently demonstrated a willingness to learn and grow, and his enthusiasm for tackling new challenges was contagious. Osama is a reliable and dedicated team member who would be a great asset to any React.js team. Highly recommended! 👍! 🌟',
-    linkednURL: 'https://www.linkedin.com/in/shahmir-minhas/',
+    name: 'XYZ Person 1',
+    image: 'images/xyz1.jfif',
+    designation: 'Full Stack Developer | MERN Stack | Cloud Computing',
+    view: 'I highly recommend Manvi Panjwani for any software development opportunities. Her understanding of full stack development, coupled with her enthusiasm for learning new technologies, makes her a strong asset for any team. Manvi has consistently delivered high-quality work and is a reliable team player. 🌟',
+    linkednURL: 'https://www.linkedin.com/in/xyz1/',
   },
   {
     id: 1,
-    name: 'Sikandar Hayat',
-    image: 'images/sikandar.jpeg',
+    name: 'XYZ Person 2',
+    image: 'images/xyz2.jpeg',
     designation:
-      'Data Scientist | Machine Learning Engineer | Python Developer',
-    view: "I had the privilege of working alongside Osama on multiple university projects, and I must say, his talent and work ethic truly stood out. Recently, we were both part of the dynamic team at JMM Technologies, where Osama's professionalism and attention to detail shone brightly. I wholeheartedly endorse Osama for any opportunity that calls for a highly skilled and dedicated individual.",
-    linkednURL: 'https://www.linkedin.com/in/sikandar-hayat-381407179/',
+      'Data Scientist | Machine Learning Enthusiast | Python Developer',
+    view: 'Manvi and I collaborated on a data science project, and her dedication and skills were exceptional. She demonstrated her ability to work with machine learning algorithms and effectively communicate complex technical concepts to the team. I highly recommend her for any data science role.',
+    linkednURL: 'https://www.linkedin.com/in/xyz2/',
   },
   {
     id: 2,
-    name: 'Nasir Khan',
-    image: 'images/nasir.jpg',
-    designation: 'MERN | JavaScript | Tailwind | Sass | Bootstrap',
-    view: "I wholeheartedly recommend Osama as a talented React frontend developer with an incredible flair for UI/UX design. His proficiency in Node.js further enhances his capabilities, allowing him to build robust and scalable applications. Osama's attention to detail, problem-solving skills, and dedication to delivering exceptional results make him a valuable addition to any development team.",
-    linkednURL: 'https://www.linkedin.com/in/nasirkhan22/',
+    name: 'XYZ Person 3',
+    image: 'images/xyz3.jpg',
+    designation: 'Software Engineer | DevOps Specialist',
+    view: 'I had the pleasure of working with Manvi on a cloud computing project, and her expertise in cloud technologies and DevOps tools like Kubernetes and Docker was outstanding. She consistently delivered top-notch work and was always eager to take on new challenges.',
+    linkednURL: 'https://www.linkedin.com/in/xyz3/',
   },
   {
     id: 3,
-    name: 'Muhammad Ullah',
-    image: 'images/muhammad.jpeg',
-    designation: 'MERN Stack Developer at Productbox',
-    view: 'I highly recommend Osama Javed for web frontend development positions. Their expertise in ReactJS and Next.js, combined with their professionalism and dedication, make them an invaluable asset to any team.',
-    linkednURL: 'https://www.linkedin.com/in/muhammadullahafridi/',
+    name: 'XYZ Person 4',
+    image: 'images/xyz4.jpeg',
+    designation: 'Network Engineer | Cisco Certified Professional',
+    view: 'Manvi played a key role in improving the security measures during her time working on the Nokia Network Services Platform. Her knowledge of networking protocols and ability to manage network security was impressive. I highly recommend her for any network-related roles.',
+    linkednURL: 'https://www.linkedin.com/in/xyz4/',
   },
 ];
+
 export default function handler(req, res) {
   res.status(200).json(recommendationCard);
 }

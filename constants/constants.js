@@ -1,6 +1,6 @@
 export const NAME = 'Manvi Panjwani';
 
-export const DESIGNATION = `Software Developer | Machine Learning Engineer  `;
+export const DESIGNATION = `Software Developer | Machine Learning Engineer`;
 
 export const DETAILS = {
   Residence: 'United States',
@@ -10,58 +10,51 @@ export const DETAILS = {
 
 export const SKILLS = [
   {
-    title: 'MERN Stack Developer',
+    title: 'Python Developer',
+    level: '85%',
+  },
+  {
+    title: 'Java Developer',
+    level: '80%',
+  },
+  {
+    title: 'Data Science & Machine Learning',
+    level: '90%',
+  },
+  {
+    title: 'Cloud & DevOps (Kubernetes, Gradle)',
     level: '75%',
   },
   {
-    title: 'React Developer',
-    level: '91%',
-  },
-  // {
-  //   title: 'Desktop Application Developer',
-  //   level: '75%',
-  // },
-  {
-    title: 'Backend Developer',
-    level: '54%',
-  },
-  {
-    title: 'Technical Blogger',
-    level: '83%',
+    title: 'Networking (Cisco Packet Tracer)',
+    level: '70%',
   },
 ];
 
 export const TECH_STACK = [
-  'JavaScript',
-  'ReactJS',
-  'NextJS',
-  'TypeScript',
-  'NodeJS',
-  'Redux',
-  'Zustand',
-  'CSS',
-  'SCSS',
-  'TailwindCSS',
-  'Ant Design',
-  'Material UI',
-  'Next UI',
-  'REST API',
-  'MongoDB',
-  'MySQL',
+  'Python',
+  'Java',
+  'C/C++',
+  'SQL',
+  'HTML & CSS',
+  'Kubernetes',
+  'Cloud',
+  'Gradle',
   'Git',
+  'Linux',
+  'MATLAB',
+  'Microsoft Excel',
+  'Microsoft Office',
   'GitHub',
-  'Jira',
-  'Figma',
-  'Adobe XD',
+  'Cisco Packet Tracer',
 ];
 
 export const CONTACTS = {
   EMAIL: 'mpanjwani@clarku.edu',
   PHONE: '+1 (331) 203 2895',
 };
+
 export const SOCIAL_LINKS = {
-  GITHUB: 'https://github.com/osamajavaid',
-  LINKEDIN: 'https://www.linkedin.com/in/manvi-panjwani/',
-  TWITTER: 'https://twitter.com/iosamajavaid',
-  FACEBOOK: 'https://www.facebook.com/iosamajavaid',
+  GITHUB: 'https://github.com/osamajavaid', // Replace with actual GitHub if needed
+  LINKEDIN: 'https://www.linkedin.com/in/manvi-panjwani-b914421b2/',
 };
