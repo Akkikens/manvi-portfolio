@@ -55,6 +55,6 @@ export const CONTACTS = {
 };
 
 export const SOCIAL_LINKS = {
-  GITHUB: 'https://github.com/osamajavaid', // Replace with actual GitHub if needed
+  GITHUB: 'https://github.com/ManviPanjwani', // Replace with actual GitHub if needed
   LINKEDIN: 'https://www.linkedin.com/in/manvi-panjwani-b914421b2/',
 };

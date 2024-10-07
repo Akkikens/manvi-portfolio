@@ -128,6 +128,25 @@ const portfolio = [
       },
     ],
   },
+  {
+    id: 6,
+    projectName: 'Nokia Security Enhancement',
+    url: '', // No external URL provided in resume
+    image: 'projects/nokia_security.png',
+    projectDetail:
+      'Implemented security measures within Nokia NSP to detect and flag unexpected changes as potential security violations. Enhanced the integrity of network operations by developing key security mechanisms for managing SIMs, IMEs, and chassis identifiers.',
+    technologiesUsed: [
+      {
+        tech: 'Java',
+      },
+      {
+        tech: 'NSP NFM-P',
+      },
+      {
+        tech: 'Network Security',
+      },
+    ],
+  },
 ];
 
 export default function handler(req, res) {

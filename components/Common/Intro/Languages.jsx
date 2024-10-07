@@ -32,7 +32,7 @@ const Languages = () => {
               strokeColor="#1fdf64"
               type="circle"
               percent={hindi}
-              size={75}
+              size={55}
             />
             <span className="text-xs font-bold text-Snow">Hindi</span>
           </div>
@@ -41,7 +41,7 @@ const Languages = () => {
               strokeColor="#1fdf64"
               type="circle"
               percent={english}
-              size={75}
+              size={55}
             />
             <span className="text-xs font-bold text-Snow">English</span>
           </div>
@@ -50,7 +50,7 @@ const Languages = () => {
               strokeColor="#1fdf64"
               type="circle"
               percent={sindhi}
-              size={75}
+              size={55}
             />
             <span className="text-xs font-bold text-Snow">Sindhi</span>
           </div>
